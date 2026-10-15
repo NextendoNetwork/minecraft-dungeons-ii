@@ -1,0 +1,24 @@
+# Build outputs / compiled servers
+*.exe
+*.linux
+*.out
+/bin/
+/dist/
+
+# Raw / measured binary data
+*.bin
+
+# Secrets & local config: NEVER commit these
+.env
+*.pem
+*.key
+*.pfx
+
+# Runtime state
+/state/
+/data/
+*.log
+
+# Game specific
+/server
+/minecraft-dungeons-ii
